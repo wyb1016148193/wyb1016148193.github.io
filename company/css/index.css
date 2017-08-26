@@ -1,0 +1,280 @@
+body,ul,li,p,pre,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+a{
+	color: block;
+	text-decoration: none;
+}
+/*顶部开始*/
+.top{
+	width: 100%;
+	height: 210px;
+	padding-top:1px;
+}
+.top-inner{
+	width: 1000px;
+	height: 40px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.top-left{
+	width:440px;
+	height: 40px; 
+}
+.top-left ul{
+	width:440px;
+	height: 40px; 
+	display:flex;
+	justify-content: space-between;
+}
+.top-left ul li{
+	cursor: pointer;
+	line-height:40px; 
+}
+.top-left ul li:first-child{
+	border:1px solid #ccc;
+}
+.top-left ul li:hover{
+	border:1px solid #ccc;
+}
+.tit{
+	width: 100%;
+	height: 140px;
+    background:#6D4128;
+}
+.tit-inner{
+	width: 1000px;
+	height: 140px;
+	margin: 0 auto;
+}
+.tit-left{
+	width: 218px;
+	height: 140px;	
+	color:white;
+	font-size: 30px;
+	float: left;
+}
+.tit-left p:first-child{
+	line-height: 70px;
+}
+.tit-right{
+    width: 400px;
+	height: 40px;	
+	float: right;
+
+	margin-top:50px;
+}
+.tit-right input:first-child{
+	width: 300px;
+	height: 40px;
+	color: gray;	
+}
+.tit-right input:nth-child(2){
+
+	height: 46px;	
+}
+/*主体部分*/
+.main{
+	width: 1000px;
+	height: 1080px;
+	margin: 0 auto;
+	border:1px solid #DADADA;
+	padding: 10px;
+}
+.banner{
+	width: 640px;
+	height: 291px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ban-inner{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 2560px;
+	height: 291px;
+}
+.ban-inner li{
+	width: 640px;
+	height: 291px;
+	float: left;
+}
+
+.ban-inner li img{
+	width: 640px;
+	height: 291px;
+}
+.ewm{
+	width: 300px;
+	height: 291px;
+	float: right;
+}
+.ewm img{
+	width: 258px;
+	height: 258px;
+
+}
+.ewm p{
+	margin-left:20px;
+}
+/*记忆生活馆*/
+.life{
+	width: 477px;
+	height: 698px;
+/*	background:red;*/
+	margin-top:20px;
+	float: left;
+	border-right:1px solid #DADADA; 
+}
+.life a{
+	display: block;
+	width: 467px;
+	height: 34px;
+	font-size: 20px;
+}
+.life img{
+	width: 467px;
+	height: 225px;
+}
+.life span{
+	float: right;
+   font-size: 14px;
+}
+.life-bottom{
+	width: 477px;
+	height: 400px;
+}
+.content: {
+	width: 100%;
+	height: 100%;
+}
+.content li{
+	width: 100%;
+	height: 88px;
+	margin-top:15px;
+}
+.content h2{
+	width: 100%;
+	height: 21px;
+}
+.content p{
+	width: 100%;
+	height:60px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.door{
+	width: 477px;
+	height: 754px;
+/*	background:red;*/
+	margin-top:10px;
+	float: left; 
+	padding: 10px;
+  
+}
+.door h2{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.door p{
+	width: 100%;
+	height:60px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.door span{
+	font-size: 14px;
+	float: right;
+}
+.door-top{
+	width: 477px;
+	height: 416px;
+
+}
+.door-top a{
+	display: block;
+	width: 467px;
+	height: 34px;
+	font-size: 20px;
+}
+.door-top img{
+	width: 467px;
+	height: 225px;
+}
+.door-bottom{
+	width: 477px;
+	height: 416px;
+
+}
+.door-bottom a{
+	display: block;
+	width: 467px;
+	height: 34px;
+	font-size: 20px;
+}
+.door-bottom img{
+	width: 467px;
+	height: 225px;
+}
+/*关与我们*/
+.about{
+	width:1000px;
+	height:174px;
+
+	margin: 0 auto;
+}
+.about-ineer{
+	width:1000px;
+	height:174px;
+	display: flex;
+	justify-content: space-between;
+}
+.about-ineer li{
+
+	height:130px;
+
+	margin-top: 40px;
+}
+.about-ineer li p{
+	font-size: 12px;
+/*	height: 10px;*/
+	margin-top:15px;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	height: 149px;
+	background:#AEC0C7;
+}
+.foot-inner{
+	width: 1000px;
+	height: 149px;
+    padding-top:1px;
+	margin:0 auto;
+}
+.foot-pic{
+	width: 365px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-top:20px;
+}
+.foot-pic img{
+	width: 101px;
+	height: 50px;
+}
+.foot-inner p{
+	width: 800px;
+	height: 18px;
+	font-size: 14px;
+	margin-top:40px;
+	margin-left: 300px;
+
+}
